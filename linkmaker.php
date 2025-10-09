@@ -17,6 +17,34 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+if (!function_exists('linkmaker_fs')) {
+    function linkmaker_fs() {
+        global $linkmaker_fs;
+
+        if (!isset($linkmaker_fs)) {
+            require_once __DIR__ . '/vendor/freemius/start.php';
+            $linkmaker_fs = fs_dynamic_init(array(
+                'id'             => '21046',
+                'slug'           => 'linkmaker',
+                'type'           => 'plugin',
+                'public_key'     => 'pk_32b32da022dddab87b1a7ae31ac67',
+                'is_premium'     => false,
+                'has_addons'     => false,
+                'has_paid_plans' => false,
+                'menu'           => array(
+                    'slug'    => 'linkmaker',
+                    'support' => false,
+                ),
+            ));
+        }
+
+        return $linkmaker_fs;
+    }
+
+    linkmaker_fs();
+    do_action('linkmaker_fs_loaded');
+}
+
 if (!defined('LINKMAKER_VERSION')) {
     define('LINKMAKER_VERSION', '0.1.5');
 }

@@ -95,8 +95,15 @@ For now the plugin uses the visible text. A shortcode and/or attribute‑based s
 
 ---
 
+## 📬 Contact
+
+Questions or partnership inquiries? Email [dan@fishdan.com](mailto:dan@fishdan.com).
+
+---
+
 ## 🧾 Changelog
 
+* **0.1.8** – Recorded the fishdan.com ownership contact and refreshed release packaging for WordPress.org review.
 * **0.1.7** – Enabled the Freemius WordPress.org compatibility mode and fixed release packaging names.
 * **0.1.6** – Bundled the Freemius SDK and wired it into the plugin bootstrap.
 * **0.1.5** – Renamed the plugin to LinkMaker and updated release automation.

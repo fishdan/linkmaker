@@ -4,7 +4,7 @@ Tags: wikipedia, links, search, wiki
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.7
+Stable tag: 0.1.8
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -17,6 +17,10 @@ LinkMaker lets editors create Wikipedia links without leaving the editor. Link a
 * Gutenberg-friendly workflow
 * Zero configuration
 * Keeps links that already point to GitHub untouched
+
+== Contact ==
+
+Questions or partnership inquiries: [dan@fishdan.com](mailto:dan@fishdan.com)
 
 == Installation ==
 
@@ -37,6 +41,9 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Changelog ==
 
+= 0.1.8 =
+* Updated ownership contact details and refreshed release assets for WordPress.org review.
+
 = 0.1.7 =
 * Enabled Freemius WordPress.org compatibility mode and adjusted release packaging.
 
@@ -54,5 +61,5 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Upgrade Notice ==
 
-= 0.1.7 =
-Ensures WordPress.org compatibility mode is active and the release ZIP is correctly named.
+= 0.1.8 =
+Confirms ownership contact email on the fishdan.com domain and updates the packaged release.

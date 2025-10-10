@@ -24,14 +24,15 @@ if (!function_exists('linkmaker_fs')) {
         if (!isset($linkmaker_fs)) {
             require_once __DIR__ . '/vendor/freemius/start.php';
             $linkmaker_fs = fs_dynamic_init(array(
-                'id'             => '21046',
-                'slug'           => 'linkmaker',
-                'type'           => 'plugin',
-                'public_key'     => 'pk_32b32da022dddab87b1a7ae31ac67',
-                'is_premium'     => false,
-                'has_addons'     => false,
-                'has_paid_plans' => false,
-                'menu'           => array(
+                'id'               => '21046',
+                'slug'             => 'linkmaker',
+                'type'             => 'plugin',
+                'public_key'       => 'pk_32b32da022dddab87b1a7ae31ac67',
+                'is_premium'       => false,
+                'has_addons'       => false,
+                'has_paid_plans'   => false,
+                'is_org_compliant' => true,
+                'menu'             => array(
                     'slug'    => 'linkmaker',
                     'support' => false,
                 ),

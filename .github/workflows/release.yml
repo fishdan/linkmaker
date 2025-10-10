@@ -23,7 +23,7 @@ jobs:
       - name: Derive tag + zip name
         run: |
           echo "TAG=${GITHUB_REF_NAME}" >> $GITHUB_ENV
-          echo "ZIP_NAME=linkmaker-${GITHUB_REF_NAME}.zip" >> $GITHUB_ENV
+          echo "ZIP_NAME=linkmaker.zip" >> $GITHUB_ENV
 
       # Optional: sanity check the plugin header exists
       - name: Verify plugin header
@@ -51,9 +51,6 @@ jobs:
         run: |
           git archive --format=zip --output "$ZIP_NAME" --prefix=linkmaker/ "$GITHUB_SHA"
 
-      - name: Copy stable zip alias
-        run: cp "$ZIP_NAME" linkmaker.zip
-
       # If your plugin lives in a subfolder of a monorepo, use this instead:
       # - name: Build plugin ZIP from subfolder
       #   run: |
@@ -66,5 +63,4 @@ jobs:
           tag_name: ${{ env.TAG }}
           files: |
             ${{ env.ZIP_NAME }}
-            linkmaker.zip
           generate_release_notes: true

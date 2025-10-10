@@ -4,7 +4,7 @@ Tags: wikipedia, links, search, wiki
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.6
+Stable tag: 0.1.7
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -37,6 +37,9 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Changelog ==
 
+= 0.1.7 =
+* Enabled Freemius WordPress.org compatibility mode and adjusted release packaging.
+
 = 0.1.6 =
 * Bundled the Freemius SDK and initialized it for LinkMaker.
 
@@ -51,5 +54,5 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Upgrade Notice ==
 
-= 0.1.6 =
-Includes the Freemius SDK required for license and analytics integration.
+= 0.1.7 =
+Ensures WordPress.org compatibility mode is active and the release ZIP is correctly named.

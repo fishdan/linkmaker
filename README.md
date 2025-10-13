@@ -103,6 +103,7 @@ Questions or partnership inquiries? Email [dan@fishdan.com](mailto:dan@fishdan.c
 
 ## 🧾 Changelog
 
+* **0.1.9** – Removed HTML from the plugin author metadata to comply with WordPress.org validation.
 * **0.1.8** – Recorded the fishdan.com ownership contact and refreshed release packaging for WordPress.org review.
 * **0.1.7** – Enabled the Freemius WordPress.org compatibility mode and fixed release packaging names.
 * **0.1.6** – Bundled the Freemius SDK and wired it into the plugin bootstrap.

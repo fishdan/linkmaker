@@ -4,7 +4,7 @@ Tags: wikipedia, links, search, wiki
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.8
+Stable tag: 0.1.9
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -41,6 +41,9 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Changelog ==
 
+= 0.1.9 =
+* Removed HTML from the plugin author field to satisfy WordPress.org header validation.
+
 = 0.1.8 =
 * Updated ownership contact details and refreshed release assets for WordPress.org review.
 
@@ -61,5 +64,5 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Upgrade Notice ==
 
-= 0.1.8 =
-Confirms ownership contact email on the fishdan.com domain and updates the packaged release.
+= 0.1.9 =
+Fixes the plugin header author field so WordPress.org validation passes without warnings.

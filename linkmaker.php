@@ -4,7 +4,7 @@ Plugin Name: LinkMaker
 Plugin URI: https://fishdan.com/linkmaker
 Description: Transforms specified hyperlinks into interactive elements for Wikipedia searches.
 Version: 0.1.8
-Author: Dan Fishman <dan@fishdan.com>
+Author: Dan Fishman
 Author URI: https://fishdan.com
 License: MIT
 License URI: https://opensource.org/licenses/MIT

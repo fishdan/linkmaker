@@ -103,6 +103,7 @@ Questions or partnership inquiries? Email [dan@fishdan.com](mailto:dan@fishdan.c
 
 ## 🧾 Changelog
 
+* **0.1.11** – Restored the Freemius menu slug to prevent admin crashes and ensure the SDK stays connected.
 * **0.1.10** – Refreshed the Freemius app credentials and admin menu wiring so analytics start flowing again.
 * **0.1.9** – Removed HTML from the plugin author metadata to comply with WordPress.org validation.
 * **0.1.8** – Recorded the fishdan.com ownership contact and refreshed release packaging for WordPress.org review.

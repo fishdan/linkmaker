@@ -4,7 +4,7 @@ Tags: wikipedia, links, search, wiki
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.10
+Stable tag: 0.1.11
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -41,6 +41,9 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Changelog ==
 
+= 0.1.11 =
+* Restored the Freemius settings slug so the SDK menu loads without fatal errors and reconnects to the dashboard.
+
 = 0.1.10 =
 * Updated the Freemius application keys and menu settings so the dashboard starts receiving events again.
 
@@ -67,5 +70,5 @@ Not yet. The plugin currently matches the Wikipedia article based on the visible
 
 == Upgrade Notice ==
 
-= 0.1.10 =
-Refreshes the Freemius integration so telemetry and account actions resume working.
+= 0.1.11 =
+Fixes the Freemius admin menu so the plugin reconnects cleanly after credentials changes.
